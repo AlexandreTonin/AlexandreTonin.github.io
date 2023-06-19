@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- meta search tags-->
+    <meta name="author" content="Alexandre Tonin" />
+    <meta name="description"
+        content="Alexandre Tonin · Front-end Developer · Estudante de Engenharia de Software · UI Designer" />
+    <meta name="keywords"
+        content="frontend, web, site, portfolio, developer, dev, desenvolvedor, programador, programação, ui, alexandretonin, website, web development, alexandre tonin, desenvolvimento web, animation, css, html, javascript" />
+    <meta name="theme-color" content="#111111" />
+    <meta name="title" content="Alexandre Tonin | Front-end Developer" />
+    <meta name="copyright" content="Alexandre Tonin 2023" />
+
+    <!-- meta tags compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>Portfolio | Alexandre Tonin</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+    <!-- page icon -->
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container">
+
+        <!-- header -->
+        <header>
+            <!-- navigation bar -->
+            <nav id="navbar">
+                <p> <a href="#"> Home </a> </p>
+      
+                <ul>
+                    <li><a class="item" href="#about">Sobre</a></li>
+                    <li><a class="item" href="#projects">Projetos</a></li>
+                    <li><a class="item" href="#skills">Habilidades</a></li>
+                </ul>
+
+                <div class="buttons">
+                    <div class="dark-mode">
+                        <img src="assets/moon.svg" alt="">
+                        <img src="assets/sun.svg" alt="">
+                        <input type="checkbox" name="toggle" id="toggle">
+                        <label for="toggle" class="ball"></label>
+                    </div>
+
+                    <div class="lang">
+                        <i class="fas fa-language"></i>
+                    </div>
+                </div>
+            </nav>
+            <!---->
+        </header>
+        <!---->
+
+        <!-- hero -->
+        <section id="presentation">
+            <div class="presentation-container">
+                <p class="sub1">Hi I'm</p>
+                <h1 class="name">Alexandre Tonin</h1>
+                <p class="sub2">front-end developer | software engineering student</p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+        <!---->
+
+        <!-- about section -->
+        <section id="about">
+            <div class="about-container">
+                <h1 class="section-title">Sobre</h1>
+
+                <div class="about-content">
+                    <div class="pic-and-description">
+                        <div class="pic"></div>
+                        <div class="about-description">
+                            <p>Me chamo Alexandre</p>
+                            <p>Sou estudante de graduação em Engenharia de Software e possuo tecnólogo em Informática.
+                                Gosto de estudar novas
+                                tecnologias, principalmente as relacionadas a desenvolvimento Front-end, além disso
+                                gosto de estudar gestão e modelagem projetos de software por completo, desde o
+                                levantamento de requisitos, ciclo de vida, aplicação de metodologias ágeis, arquitetura,
+                                boas práticas da Engenharia de Software, até a modelagem de diagramas, além disso também
+                                procuro estudar desenvolvimento Back-end, para atuar como
+                                desenvolvedor Fullstack no futuro</p>
+                        </div>
+                    </div>
+
+                    <div class="socials">
+                        <div class="icons">
+                            <div class="icon"><a href="https://www.linkedin.com/in/alexandre-tonin-4b8b2b234/"
+                                    target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                            <div class="icon"><a href="https://www.github.com/AlexandreTonin" target="_blank"><i
+                                        class="fab fa-github"></i></a></div>
+                            <div class="icon"><a href="mailto:xandetonin@gmail.com" target="_blank"><i
+                                        class="fas fa-at"></i></a></div>
+                        </div>
+                    </div>
+
+                    <div class="education-certification">
+                        <p class="ed-ce-title">Formações e Certificados</p>
+
+                        <div class="educ">
+                            <div class="formation">
+                                <div class="cap">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="186px" height="186px"
+                                        viewBox="-2.22 -2.22 41.44 41.44" enable-background="new 0 0 37 32"
+                                        xml:space="preserve" fill="#d54d4d" stroke="#d54d4d" stroke-width="0.00037">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="#f0f0f0"
+                                                    d="M36.078,7.173L19.876,0.346c-0.865-0.365-1.858-0.365-2.728,0L0.922,7.183C0.362,7.42,0.009,7.944,0,8.554 c-0.009,0.607,0.329,1.143,0.881,1.394L2.59,10.73C2.538,10.809,2.5,10.898,2.5,11v9c0,0.005,0.003,0.01,0.003,0.016 c-1.172,0.207-2.066,1.226-2.066,2.456c0,1.111,0.733,2.043,1.736,2.368l-1.798,4.164c-0.271,0.629-0.206,1.326,0.18,1.912 C1.002,31.595,1.787,32,2.656,32l0.289-0.014c0.813-0.066,1.539-0.481,1.941-1.111c0.344-0.537,0.418-1.182,0.203-1.767 L3.541,24.89c1.086-0.272,1.896-1.248,1.896-2.418c0-1.188-0.833-2.18-1.945-2.433C3.493,20.025,3.5,20.014,3.5,20v-8.853l4,1.833 V20h0.01c0.103,2.257,5.827,3.439,11.49,3.439S30.387,22.257,30.49,20h0.01v-7.551l5.607-2.507C36.664,9.694,37.006,9.16,37,8.549 C36.993,7.938,36.641,7.41,36.078,7.173z M4.045,30.336c-0.235,0.368-0.677,0.613-1.186,0.654L2.656,31 c-0.531,0-1.005-0.236-1.266-0.634c-0.2-0.304-0.234-0.647-0.097-0.966l1.533-3.552l1.323,3.604 C4.259,29.746,4.221,30.061,4.045,30.336z M4.438,22.472c0,0.827-0.673,1.5-1.5,1.5s-1.5-0.673-1.5-1.5s0.673-1.5,1.5-1.5 S4.438,21.645,4.438,22.472z M29.5,18.419c-1.898-1.305-6.219-1.98-10.5-1.98s-8.602,0.675-10.5,1.98v-7.278 c0-1.097,3.185-2.641,10.266-2.641c7.004,0,10.734,1.57,10.734,2.703V18.419z M19,22.439c-6.409,0-10.5-1.48-10.5-2.5 s4.091-2.5,10.5-2.5s10.5,1.48,10.5,2.5S25.409,22.439,19,22.439z M35.699,9.03L30.5,11.354v-0.151 c0-2.181-4.825-3.703-11.734-3.703C11.922,7.5,7.5,8.929,7.5,11.141v0.741L1.297,9.038C1.017,8.911,0.999,8.646,1,8.567 s0.027-0.343,0.311-0.463l16.227-6.837c0.619-0.263,1.331-0.261,1.95,0l16.202,6.827c0.285,0.12,0.31,0.386,0.311,0.464 C36.001,8.638,35.981,8.903,35.699,9.03z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="institution">
+                                    <a href="https://unijui.edu.br" target="_blank">
+                                        <p class="institution-name">Universidade Regional do Noroeste do Estado do
+                                            Grande do
+                                            Sul</p>
+                                        <p class="course">Bacharelado em Engenharia de Software</p>
+                                        <p class="time">2022 - 2026</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="formation">
+                                <div class="cap">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="186px" height="186px"
+                                        viewBox="-2.22 -2.22 41.44 41.44" enable-background="new 0 0 37 32"
+                                        xml:space="preserve" fill="#d54d4d" stroke="#d54d4d" stroke-width="0.00037">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="#f0f0f0"
+                                                    d="M36.078,7.173L19.876,0.346c-0.865-0.365-1.858-0.365-2.728,0L0.922,7.183C0.362,7.42,0.009,7.944,0,8.554 c-0.009,0.607,0.329,1.143,0.881,1.394L2.59,10.73C2.538,10.809,2.5,10.898,2.5,11v9c0,0.005,0.003,0.01,0.003,0.016 c-1.172,0.207-2.066,1.226-2.066,2.456c0,1.111,0.733,2.043,1.736,2.368l-1.798,4.164c-0.271,0.629-0.206,1.326,0.18,1.912 C1.002,31.595,1.787,32,2.656,32l0.289-0.014c0.813-0.066,1.539-0.481,1.941-1.111c0.344-0.537,0.418-1.182,0.203-1.767 L3.541,24.89c1.086-0.272,1.896-1.248,1.896-2.418c0-1.188-0.833-2.18-1.945-2.433C3.493,20.025,3.5,20.014,3.5,20v-8.853l4,1.833 V20h0.01c0.103,2.257,5.827,3.439,11.49,3.439S30.387,22.257,30.49,20h0.01v-7.551l5.607-2.507C36.664,9.694,37.006,9.16,37,8.549 C36.993,7.938,36.641,7.41,36.078,7.173z M4.045,30.336c-0.235,0.368-0.677,0.613-1.186,0.654L2.656,31 c-0.531,0-1.005-0.236-1.266-0.634c-0.2-0.304-0.234-0.647-0.097-0.966l1.533-3.552l1.323,3.604 C4.259,29.746,4.221,30.061,4.045,30.336z M4.438,22.472c0,0.827-0.673,1.5-1.5,1.5s-1.5-0.673-1.5-1.5s0.673-1.5,1.5-1.5 S4.438,21.645,4.438,22.472z M29.5,18.419c-1.898-1.305-6.219-1.98-10.5-1.98s-8.602,0.675-10.5,1.98v-7.278 c0-1.097,3.185-2.641,10.266-2.641c7.004,0,10.734,1.57,10.734,2.703V18.419z M19,22.439c-6.409,0-10.5-1.48-10.5-2.5 s4.091-2.5,10.5-2.5s10.5,1.48,10.5,2.5S25.409,22.439,19,22.439z M35.699,9.03L30.5,11.354v-0.151 c0-2.181-4.825-3.703-11.734-3.703C11.922,7.5,7.5,8.929,7.5,11.141v0.741L1.297,9.038C1.017,8.911,0.999,8.646,1,8.567 s0.027-0.343,0.311-0.463l16.227-6.837c0.619-0.263,1.331-0.261,1.95,0l16.202,6.827c0.285,0.12,0.31,0.386,0.311,0.464 C36.001,8.638,35.981,8.903,35.699,9.03z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="institution">
+                                    <a href="https://escola25dejulho.com.br" target="_blank">
+                                        <p class="institution-name">Escola Técnica Estadual 25 de Julho</p>
+                                        <p class="course">Técnologo em Informática</p>
+                                        <p class="time">2019 - 2021</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="formation">
+                                <div class="cap">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px"
+                                        viewBox="0 0 22 32" enable-background="new 0 0 22 32" xml:space="preserve"
+                                        fill="#000000" stroke="#000000" stroke-width="0.00022">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="#ffffff"
+                                                    d="M22,11c0-6.065-4.935-11-11-11S0,4.935,0,11c0,3.577,1.724,6.75,4.375,8.761l-3.503,9.178 c-0.063,0.166-0.034,0.354,0.077,0.492s0.283,0.21,0.464,0.181l3.859-0.575l2.563,2.802C7.932,31.942,8.066,32,8.205,32 c0.031,0,0.062-0.003,0.094-0.009c0.17-0.032,0.312-0.151,0.373-0.312l2.667-6.987l2.667,6.987c0.062,0.161,0.203,0.28,0.373,0.312 C14.41,31.997,14.441,32,14.473,32c0.139,0,0.273-0.058,0.369-0.162l2.563-2.802l3.859,0.575c0.18,0.026,0.354-0.044,0.465-0.182 c0.111-0.14,0.14-0.327,0.075-0.493l-3.704-9.549C20.482,17.368,22,14.36,22,11z M1,11C1,5.486,5.486,1,11,1s10,4.486,10,10 s-4.486,10-10,10S1,16.514,1,11z M10,22.142l0.621,1.148l-2.685,7.274l-2.151-2.4c-0.112-0.121-0.248-0.181-0.421-0.156L2.1,28.496 l3.117-8.153c1.494,0.927,3.042,1.503,4.896,1.621L10,22.138C10,22.139,10,22.141,10,22.142z M20.562,28.496l-3.271-0.488 c-0.171-0.025-0.331,0.035-0.443,0.156l-2.196,2.4l-3.276-8.583c2.188-0.074,4.215-0.783,5.9-1.959L20.562,28.496z">
+                                                </path>
+                                                <path fill="#ffffff"
+                                                    d="M16.5,11c0-3.032-2.468-5.5-5.5-5.5S5.5,7.968,5.5,11s2.468,5.5,5.5,5.5S16.5,14.032,16.5,11z M6.5,11 c0-2.481,2.019-4.5,4.5-4.5s4.5,2.019,4.5,4.5s-2.019,4.5-4.5,4.5S6.5,13.481,6.5,11z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="institution">
+                                    <a href="https://www.freecodecamp.org/certification/fcccb840615-83f9-4770-ba4a-2dfae5f4c292/responsive-web-design"
+                                        target="_blank">
+                                        <p class="institution-name">FreeCodeCamp <i class="fab fa-free-code-camp"></i>
+                                        </p>
+                                        <p class="course">Web Design Responsivo (300h)</p>
+                                        <p class="time">2023</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="formation">
+                                <div class="cap">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px"
+                                        viewBox="0 0 22 32" enable-background="new 0 0 22 32" xml:space="preserve"
+                                        fill="#000000" stroke="#000000" stroke-width="0.00022">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="#ffffff"
+                                                    d="M22,11c0-6.065-4.935-11-11-11S0,4.935,0,11c0,3.577,1.724,6.75,4.375,8.761l-3.503,9.178 c-0.063,0.166-0.034,0.354,0.077,0.492s0.283,0.21,0.464,0.181l3.859-0.575l2.563,2.802C7.932,31.942,8.066,32,8.205,32 c0.031,0,0.062-0.003,0.094-0.009c0.17-0.032,0.312-0.151,0.373-0.312l2.667-6.987l2.667,6.987c0.062,0.161,0.203,0.28,0.373,0.312 C14.41,31.997,14.441,32,14.473,32c0.139,0,0.273-0.058,0.369-0.162l2.563-2.802l3.859,0.575c0.18,0.026,0.354-0.044,0.465-0.182 c0.111-0.14,0.14-0.327,0.075-0.493l-3.704-9.549C20.482,17.368,22,14.36,22,11z M1,11C1,5.486,5.486,1,11,1s10,4.486,10,10 s-4.486,10-10,10S1,16.514,1,11z M10,22.142l0.621,1.148l-2.685,7.274l-2.151-2.4c-0.112-0.121-0.248-0.181-0.421-0.156L2.1,28.496 l3.117-8.153c1.494,0.927,3.042,1.503,4.896,1.621L10,22.138C10,22.139,10,22.141,10,22.142z M20.562,28.496l-3.271-0.488 c-0.171-0.025-0.331,0.035-0.443,0.156l-2.196,2.4l-3.276-8.583c2.188-0.074,4.215-0.783,5.9-1.959L20.562,28.496z">
+                                                </path>
+                                                <path fill="#ffffff"
+                                                    d="M16.5,11c0-3.032-2.468-5.5-5.5-5.5S5.5,7.968,5.5,11s2.468,5.5,5.5,5.5S16.5,14.032,16.5,11z M6.5,11 c0-2.481,2.019-4.5,4.5-4.5s4.5,2.019,4.5,4.5s-2.019,4.5-4.5,4.5S6.5,13.481,6.5,11z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="institution">
+                                    <a href="https://www.freecodecamp.org/certification/fcccb840615-83f9-4770-ba4a-2dfae5f4c292/responsive-web-design"
+                                        target="_blank">
+                                        <p class="institution-name">FreeCodeCamp <i class="fab fa-free-code-camp"></i>
+                                        </p>
+                                        <p class="course">Desenvolvimento Front-end (300h)</p>
+                                        <p class="time">2023</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="formation">
+                                <div class="cap">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px"
+                                        viewBox="0 0 22 32" enable-background="new 0 0 22 32" xml:space="preserve"
+                                        fill="#000000" stroke="#000000" stroke-width="0.00022">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="#ffffff"
+                                                    d="M22,11c0-6.065-4.935-11-11-11S0,4.935,0,11c0,3.577,1.724,6.75,4.375,8.761l-3.503,9.178 c-0.063,0.166-0.034,0.354,0.077,0.492s0.283,0.21,0.464,0.181l3.859-0.575l2.563,2.802C7.932,31.942,8.066,32,8.205,32 c0.031,0,0.062-0.003,0.094-0.009c0.17-0.032,0.312-0.151,0.373-0.312l2.667-6.987l2.667,6.987c0.062,0.161,0.203,0.28,0.373,0.312 C14.41,31.997,14.441,32,14.473,32c0.139,0,0.273-0.058,0.369-0.162l2.563-2.802l3.859,0.575c0.18,0.026,0.354-0.044,0.465-0.182 c0.111-0.14,0.14-0.327,0.075-0.493l-3.704-9.549C20.482,17.368,22,14.36,22,11z M1,11C1,5.486,5.486,1,11,1s10,4.486,10,10 s-4.486,10-10,10S1,16.514,1,11z M10,22.142l0.621,1.148l-2.685,7.274l-2.151-2.4c-0.112-0.121-0.248-0.181-0.421-0.156L2.1,28.496 l3.117-8.153c1.494,0.927,3.042,1.503,4.896,1.621L10,22.138C10,22.139,10,22.141,10,22.142z M20.562,28.496l-3.271-0.488 c-0.171-0.025-0.331,0.035-0.443,0.156l-2.196,2.4l-3.276-8.583c2.188-0.074,4.215-0.783,5.9-1.959L20.562,28.496z">
+                                                </path>
+                                                <path fill="#ffffff"
+                                                    d="M16.5,11c0-3.032-2.468-5.5-5.5-5.5S5.5,7.968,5.5,11s2.468,5.5,5.5,5.5S16.5,14.032,16.5,11z M6.5,11 c0-2.481,2.019-4.5,4.5-4.5s4.5,2.019,4.5,4.5s-2.019,4.5-4.5,4.5S6.5,13.481,6.5,11z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="institution">
+                                    <a href="https://ada.tech" target="_blank">
+                                        <p class="institution-name">Ada Tech</p>
+                                        <p class="course">Desenvolvimento Front-end & Git (15h)</p>
+                                        <p class="time">2023</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="formation">
+                                <div class="cap">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px"
+                                        viewBox="0 0 22 32" enable-background="new 0 0 22 32" xml:space="preserve"
+                                        fill="#000000" stroke="#000000" stroke-width="0.00022">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="#ffffff"
+                                                    d="M22,11c0-6.065-4.935-11-11-11S0,4.935,0,11c0,3.577,1.724,6.75,4.375,8.761l-3.503,9.178 c-0.063,0.166-0.034,0.354,0.077,0.492s0.283,0.21,0.464,0.181l3.859-0.575l2.563,2.802C7.932,31.942,8.066,32,8.205,32 c0.031,0,0.062-0.003,0.094-0.009c0.17-0.032,0.312-0.151,0.373-0.312l2.667-6.987l2.667,6.987c0.062,0.161,0.203,0.28,0.373,0.312 C14.41,31.997,14.441,32,14.473,32c0.139,0,0.273-0.058,0.369-0.162l2.563-2.802l3.859,0.575c0.18,0.026,0.354-0.044,0.465-0.182 c0.111-0.14,0.14-0.327,0.075-0.493l-3.704-9.549C20.482,17.368,22,14.36,22,11z M1,11C1,5.486,5.486,1,11,1s10,4.486,10,10 s-4.486,10-10,10S1,16.514,1,11z M10,22.142l0.621,1.148l-2.685,7.274l-2.151-2.4c-0.112-0.121-0.248-0.181-0.421-0.156L2.1,28.496 l3.117-8.153c1.494,0.927,3.042,1.503,4.896,1.621L10,22.138C10,22.139,10,22.141,10,22.142z M20.562,28.496l-3.271-0.488 c-0.171-0.025-0.331,0.035-0.443,0.156l-2.196,2.4l-3.276-8.583c2.188-0.074,4.215-0.783,5.9-1.959L20.562,28.496z">
+                                                </path>
+                                                <path fill="#ffffff"
+                                                    d="M16.5,11c0-3.032-2.468-5.5-5.5-5.5S5.5,7.968,5.5,11s2.468,5.5,5.5,5.5S16.5,14.032,16.5,11z M6.5,11 c0-2.481,2.019-4.5,4.5-4.5s4.5,2.019,4.5,4.5s-2.019,4.5-4.5,4.5S6.5,13.481,6.5,11z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="institution">
+                                    <a href="https://ada.tech" target="_blank">
+                                        <p class="institution-name">Ada Tech</p>
+                                        <p class="course">Cloud Computing, Docker & Git (5h)</p>
+                                        <p class="time">2023</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+
+        <!-- projects section -->
+        <section id="projects">
+            <div class="projects-container">
+                <!-- section title -->
+                <div class="sticky">
+                    <h1 class="section-title">Projetos</h1>
+                </div>
+
+                <!-- project cards grid -->
+                <div class="project-grid">
+
+                    <!-- project card 1 -->
+                    <div class="project">
+                        <div class="project-info">
+                            <h1 class="project-number">01</h1>
+                            <p class="project-name">Veritas Bank</p>
+                            <p class="project-description">
+                                O Veritas Bank trata-se de uma landing page de um banco fictício. O projeto foi
+                                desenvolvido inteiramente por mim, desde o logo, design até o desenvolvimento da
+                                webpage.
+                            </p>
+                            <a class="view-project" onclick="aviso()"><i class="far fa-eye"></i>Visualizar projeto</a>
+                        </div>
+
+                        <div class="project-img"></div>
+                    </div>
+                    <!---->
+
+                    <!-- project card 2 -->
+                    <div class="project">
+                        <div class="project-info">
+                            <h1 class="project-number">02</h1>
+                            <p class="project-name">SwiftRent</p>
+                            <p class="project-description">
+                                A SwiftRent trata-se de uma landing page de uma empresa fictícia de aluguel de
+                                automóveis. O projeto foi
+                                desenvolvido inteiramente por mim, desde o logo, design até o desenvolvimento da
+                                webpage.
+                            </p>
+                            <a class="view-project" onclick="aviso()"><i class="far fa-eye"></i>Visualizar projeto</a>
+                        </div>
+
+                        <div class="project-img"></div>
+                    </div>
+                    <!---->
+
+                    <!-- project card 3 -->
+                    <div class="project">
+                        <div class="project-info">
+                            <h1 class="project-number">03</h1>
+                            <p class="project-name">ArcXStudio</p>
+                            <p class="project-description">
+                                A ArcXStudio é uma startup de desenvolvimento de projetos arquitetônicos totalmente
+                                modernos e sofisticados. A startup está sendo planejada pelo estudante de Arquitetura e Urbanismo da UFSM, Luiz Arthur Felipin. Minha participação neste projeto é o desenvolvimento da webpage da startup. 
+                            </p>
+                            <a class="view-project" onclick="aviso()"><i class="far fa-eye"></i>Visualizar projeto</a>
+                        </div>
+
+                        <div class="project-img"></div>
+                    </div>
+                    <!---->
+                </div>
+                <!---->
+
+                <!-- all projects button  -->
+                <a href="https://www.github.com/AlexandreTonin" class="button" target="_blank">
+                    Veja todos
+                </a>
+                <!---->
+            </div>
+        </section>
+        <!---->
+
+        <!-- skills section -->
+        <section id="skills">
+            <!-- skills container -->
+            <div class="skills-container">
+                <!-- section title -->
+                <h1 class="section-title">Habilidades & Conhecimentos</h1>
+
+                <!-- front-end skills -->
+                <div class="skills-type">
+                    <!-- skill title -->
+                    <h2 class="section-title">
+                        Front-end
+                    </h2>
+
+                    <!-- skills icons container -->
+                    <!-- front-end skills -->
+                    <div class="skills-icons">
+                        <div class="wrapper">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                                alt="html5" />
+                            <span>Html</span>
+                        </div>
+                        <div class="wrapper"><img
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                                alt="css3" />
+                            <span>Css</span>
+                        </div>
+                        <div class="wrapper"><img
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                                alt="sass" />
+                            <span>Sass</span>
+                        </div>
+                        <div class="wrapper"><img
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                                alt="bootstrap" />
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="wrapper"><img
+                                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                                alt="tailwind" />
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="wrapper"><img
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                                alt="javascript" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="wrapper"><img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" />
+                            <span>React</span>
+                        </div>
+                        <div class="wrapper"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+                                alt="figma" />
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- back-end skills -->
+                <div class="skills-type">
+                    <h2 class="section-title"> Back-end </h2>
+
+                    <div class="skills-icons">
+                        <div class="wrapper">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                                alt="nodejs" />
+                            <span>NodeJs</span>
+                        </div>
+                        <div class="wrapper">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+                                alt="php" />
+                            <span>Php</span>
+                        </div>
+                        <div class="wrapper">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                                alt="mysql" />
+                            <span>MySql</span>
+                        </div>
+                        <div class="wrapper">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                                alt="postgresql" />
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="wrapper">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                                alt="java" />
+                            <span>Java</span>
+                        </div>
+                        <div class="wrapper">
+                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" />
+                            <span>Git</span>
+                        </div>
+                        <div class="wrapper">
+                            <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" />
+                            <span>Unity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- software engineering skills -->
+                <div class="skills-type">
+                    <h2 class="section-title">
+                        Engenharia de Software</h2>
+
+                    <div class="skills-icons">
+                        <div class="wrapper">
+                            <p>Engenharia de requisitos</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Modelagem de projetos de software</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Metodologias ágeis (SCRUM, XP, ASD)</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Desenvolvimento ágil</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Modelos de processos de software</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- soft skills -->
+                <div class="skills-type">
+                    <h2 class="section-title"> Soft Skills </h2>
+
+                    <div class="skills-icons">
+                        <div class="wrapper">
+                            <p>Comunicação</p>
+                        </div>
+                        <div class="wrapper">
+                            <p>Colaboração</p>
+                        </div>
+                        <div class="wrapper">
+                            <p>Adaptabilidade</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Resolução de problemas</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Aprendizado contínuo</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Trabalho em equipe</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Criatividade</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Gestão de tempo</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Resiliência</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Inovação</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Pensamento estratégico</p>
+                        </div>
+
+                        <div class="wrapper">
+                            <p>Capacidade analítica</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+
+        <!-- footer -->
+        <footer id="footer">
+            <p> © 2023 - Alexandre Tonin </p>
+            <div class="footer-socials">
+                <p> <a href="https://www.linkedin.com/in/alexandre-tonin-4b8b2b234/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a> </p>
+                <p> <a href="https://www.github.com/AlexandreTonin" target="_blank"><i class="fab fa-github"></i> GitHub </a> </p>
+                <p> <a href="mailto:xandetonin@gmail.com" target="_blank"><i class="fas fa-at"></i> Email </a> </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!--container end-->
+
+    <!-- scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/scrollreveal.js"></script>
+    <script src="scripts/textScramble.js"></script>
+    <!---->
+
+</body>
+
+</html>
